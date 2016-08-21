@@ -16,6 +16,10 @@
 				margin: 0 auto;
 				padding: 0 $gutter;
 
+				img{
+					width:100%;
+				}
+
 				@include breakpoint(small) {
 					$gutter: _size(gutter) * 0.5;
 
